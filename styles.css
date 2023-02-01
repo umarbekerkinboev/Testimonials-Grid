@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #454a4d;
+}
+.main{
+
+}
+.container{
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    'a a b c'
+    'd e e c';
+}
+/* ///////////FIRST DIV////////// */
+.first-div{
+    grid-area: a;
+    position: relative;
+    background-color: #562c9a;
+    width: 535px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+.person-info{
+    display: flex;
+    align-items: center;
+    margin-top: -1.2rem;
+}
+.person-img{
+    border-radius: 50%; 
+scale: 50%;
+}
+.name-info{
+}
+.person-name{
+color: #e8e6e3;
+}
+.person-job{
+color: #b0a99f;
+}
+.icon{
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+}
+.text-1{
+    color: #e8e6e3;
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 1;
+}
+.text-2{
+    color: #b0a99f;
+    font-size: .85rem;
+    font-weight: bold;
+}
+/* /////////// SECOND DIV/////////// */
+.second-div{
+    grid-area: b;
+    background-color: hsl(217, 19%, 35%);
+    width: 16rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+/* /////////// THIRD DIV/////////// */
+.third-div{
+    grid-area: c;
+background-color: #333739;
+width: 15rem;
+    height:calc(300px + 20rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+/* /////////// FOURTH DIV/////////// */
+.fourth-div{
+    grid-area: e;
+    background-color: #141a25;
+    width: 33.5rem;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
+/* /////////// FIFTH DIV/////////// */
+.fifth-div{
+    grid-area: d;
+    background-color: #181a1b;
+    width: 16rem;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
